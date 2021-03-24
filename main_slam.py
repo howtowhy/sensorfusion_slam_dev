@@ -34,9 +34,6 @@ from dataset import dataset_factory
 #from mplot2d import Mplot2d
 from mplot_thread import Mplot2d, Mplot3d
 
-if platform.system()  == 'Linux':     
-    from display2D import Display2D  #  !NOTE: pygame generate troubles under macOS!
-
 from viewer3D import Viewer3D
 from utils import getchar, Printer 
 
@@ -83,11 +80,6 @@ if __name__ == "__main__":
     time.sleep(1) # to show initial messages 
 
     viewer3D = Viewer3D()
-    
-    if platform.system()  == 'Linux':    
-        display2d = Display2D(cam.width, cam.height)  # pygame interface 
-    else: 
-        display2d = None  # enable this if you want to use opencv window
 
     matched_points_plt = Mplot2d(xlabel='img id', ylabel='# matches',title='# matches')    
 
@@ -96,7 +88,7 @@ if __name__ == "__main__":
     
     img_id = 0  #180, 340, 400   # you can start from a desired frame id if needed 
     while dataset.isOk():
-            
+        
         if not is_paused: 
             print('..................................')
             print('image: ', img_id)                
@@ -111,18 +103,15 @@ if __name__ == "__main__":
             if img is not None:
                 time_start = time.time()                  
                 slam.track(img, img_id, timestamp)  # main SLAM function 
-                                
+                
                 # 3D display (map display)
                 if viewer3D is not None:
                     viewer3D.draw_map(slam)
 
                 img_draw = slam.map.draw_feature_trails(img)
-                    
+                
                 # 2D display (image display)
-                if display2d is not None:
-                    display2d.draw(img_draw)
-                else: 
-                    cv2.imshow('Camera', img_draw)
+                cv2.imshow('Camera', img_draw)
 
                 if matched_points_plt is not None: 
                     if slam.tracking.num_matched_kps is not None: 
@@ -158,25 +147,17 @@ if __name__ == "__main__":
         # manage interface infos  
         
         if slam.tracking.state==SlamState.LOST:
-            if display2d is not None:     
-                getchar()                              
-            else: 
-                key_cv = cv2.waitKey(0) & 0xFF   # useful when drawing stuff for debugging 
-         
+            key_cv = cv2.waitKey(0) & 0xFF   # useful when drawing stuff for debugging 
+
         if do_step and img_id > 1:
             # stop at each frame
-            if display2d is not None:            
-                getchar()  
-            else: 
-                key_cv = cv2.waitKey(0) & 0xFF         
+            key_cv = cv2.waitKey(0) & 0xFF         
         
         if key == 'd' or (key_cv == ord('d')):
             do_step = not do_step  
             Printer.green('do step: ', do_step) 
-                      
+
         if key == 'q' or (key_cv == ord('q')):
-            if display2d is not None:
-                display2d.quit()
             if viewer3D is not None:
                 viewer3D.quit()
             if matched_points_plt is not None:
@@ -185,7 +166,7 @@ if __name__ == "__main__":
         
         if viewer3D is not None:
             is_paused = not viewer3D.is_paused()         
-                        
+
     slam.quit()
     
     #cv2.waitKey(0)
