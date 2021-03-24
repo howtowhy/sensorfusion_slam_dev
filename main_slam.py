@@ -28,7 +28,6 @@ from config import Config
 
 from slam import Slam, SlamState
 from camera  import PinholeCamera
-from ground_truth import groundtruth_factory
 from dataset import dataset_factory
 
 #from mplot3d import Mplot3d
@@ -58,7 +57,6 @@ if __name__ == "__main__":
 
     dataset = dataset_factory(config.dataset_settings)
 
-    #groundtruth = groundtruth_factory(config.dataset_settings)
     groundtruth = None # not actually used by Slam() class; could be used for evaluating performances 
 
     cam = PinholeCamera(config.cam_settings['Camera.width'], config.cam_settings['Camera.height'],
