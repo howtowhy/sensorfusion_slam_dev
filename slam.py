@@ -103,14 +103,13 @@ class TrackingHistory(object):
 
 # main slam class containing all the required modules 
 class Slam(object):
-    def __init__(self, camera, feature_tracker, groundtruth = None):    
+    def __init__(self, camera, feature_tracker):
         self.init_feature_tracker(feature_tracker)
         self.camera = camera 
         self.map = Map()
         self.local_mapping = LocalMapping(self.map)
         if kLocalMappingOnSeparateThread:
             self.local_mapping.start()
-        self.groundtruth = groundtruth  # not actually used here; could be used for evaluating performances 
         self.tracking = Tracking(self)
 
         
@@ -203,8 +202,7 @@ class Tracking(object):
         self.cur_R = None # current rotation w.r.t. world frame  
         self.cur_t = None # current translation w.r.t. world frame 
         self.trueX, self.trueY, self.trueZ = None, None, None
-        self.groundtruth = system.groundtruth  # not actually used here; could be used for evaluating performances 
-        
+
         if kLogKFinfoToFile:
             self.kf_info_logger = Logging.setup_file_logger('kf_info_logger', 'kf_info.log',formatter=Logging.simple_log_formatter)
                  
