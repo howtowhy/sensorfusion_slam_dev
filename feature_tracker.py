@@ -44,8 +44,8 @@ class FeatureTrackerTypes(Enum):
 def feature_tracker_factory(num_features=kMinNumFeatureDefault, 
                             num_levels = 1,                                 # number of pyramid levels or octaves for detector and descriptor   
                             scale_factor = 1.2,                             # detection scale factor (if it can be set, otherwise it is automatically computed)
-                            detector_type = FeatureDetectorTypes.FAST, 
-                            descriptor_type = FeatureDescriptorTypes.ORB, 
+                            detector_type = FeatureDetectorTypes.ORB2,
+                            descriptor_type = FeatureDescriptorTypes.ORB2,
                             match_ratio_test = kRatioTest,
                             tracker_type = FeatureTrackerTypes.LK):
     if tracker_type == FeatureTrackerTypes.LK:
@@ -84,8 +84,8 @@ class FeatureTracker(object):
     def __init__(self, num_features=kMinNumFeatureDefault, 
                        num_levels = 1,                                   # number of pyramid levels for detector and descriptor  
                        scale_factor = 1.2,                               # detection scale factor (if it can be set, otherwise it is automatically computed) 
-                       detector_type = FeatureDetectorTypes.FAST, 
-                       descriptor_type = FeatureDescriptorTypes.ORB,
+                       detector_type = FeatureDetectorTypes.ORB2,
+                       descriptor_type = FeatureDescriptorTypes.ORB2,
                        match_ratio_test = kRatioTest, 
                        tracker_type = FeatureTrackerTypes.LK):
         self.detector_type = detector_type
@@ -133,7 +133,7 @@ class LkFeatureTracker(FeatureTracker):
     def __init__(self, num_features=kMinNumFeatureDefault, 
                        num_levels = 3,                             # number of pyramid levels for detector  
                        scale_factor = 1.2,                         # detection scale factor (if it can be set, otherwise it is automatically computed) 
-                       detector_type = FeatureDetectorTypes.FAST, 
+                       detector_type = FeatureDetectorTypes.ORB2,
                        descriptor_type = FeatureDescriptorTypes.NONE, 
                        match_ratio_test = kRatioTest,
                        tracker_type = FeatureTrackerTypes.LK):                         
@@ -183,8 +183,8 @@ class DescriptorFeatureTracker(FeatureTracker):
     def __init__(self, num_features=kMinNumFeatureDefault, 
                        num_levels = 1,                                    # number of pyramid levels for detector  
                        scale_factor = 1.2,                                # detection scale factor (if it can be set, otherwise it is automatically computed)                
-                       detector_type = FeatureDetectorTypes.FAST, 
-                       descriptor_type = FeatureDescriptorTypes.ORB,
+                       detector_type = FeatureDetectorTypes.ORB2,
+                       descriptor_type = FeatureDescriptorTypes.ORB2,
                        match_ratio_test = kRatioTest, 
                        tracker_type = FeatureTrackerTypes.DES_FLANN):
         super().__init__(num_features=num_features, 
