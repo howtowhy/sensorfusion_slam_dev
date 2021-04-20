@@ -138,61 +138,19 @@ class FeatureManager(object):
         print("using opencv ", cv2.__version__)
         # check opencv version in order to use the right modules 
         if cv2.__version__.split('.')[0] == '3':
-            SIFT_create  = import_from('cv2.xfeatures2d','SIFT_create') 
-            SURF_create  = import_from('cv2.xfeatures2d','SURF_create')
-            FREAK_create  = import_from('cv2.xfeatures2d','FREAK_create')          
-            ORB_create   = import_from('cv2','ORB_create')
-            BRISK_create = import_from('cv2','BRISK_create')
-            KAZE_create  = import_from('cv2','KAZE_create')
-            AKAZE_create = import_from('cv2','AKAZE_create')  
-            BoostDesc_create = import_from('cv2','xfeatures2d_BoostDesc','create')
-            MSD_create = import_from('cv2','xfeatures2d_MSDDetector')        # found but it does not work! (it does not find the .create() method)    
-            #Affine_create = import_from('cv2','xfeatures2d_AffineFeature2D') # not found     
-            DAISY_create = import_from('cv2','xfeatures2d_DAISY','create')
-            STAR_create = import_from('cv2','xfeatures2d_StarDetector','create')  
-            HL_create = import_from('cv2','xfeatures2d_HarrisLaplaceFeatureDetector','create')
-            LATCH_create = import_from('cv2','xfeatures2d_LATCH','create')
-            LUCID_create = import_from('cv2','xfeatures2d_LUCID','create')        
-            VGG_create = import_from('cv2','xfeatures2d_VGG','create')                     
+            SIFT_create = import_from('cv2.xfeatures2d','SIFT_create')
+            SURF_create = import_from('cv2.xfeatures2d','SURF_create')
+            ORB_create = import_from('cv2','ORB_create')
         else:
-            SIFT_create  = import_from('cv2.xfeatures2d','SIFT_create') 
-            SURF_create  = import_from('cv2.xfeatures2d','SURF_create')
-            FREAK_create  = import_from('cv2.xfeatures2d','FREAK_create')               
-            ORB_create   = import_from('cv2','ORB')
-            BRISK_create = import_from('cv2','BRISK')
-            KAZE_create  = import_from('cv2','KAZE')            
-            AKAZE_create = import_from('cv2','AKAZE')
-            BoostDesc_create = import_from('cv2','xfeatures2d_BoostDesc','create')
-            MSD_create = import_from('cv2','xfeatures2d_MSDDetector')     
-            DAISY_create = import_from('cv2','xfeatures2d_DAISY','create') 
-            STAR_create = import_from('cv2','xfeatures2d_StarDetector','create')   
-            HL_create = import_from('cv2','xfeatures2d_HarrisLaplaceFeatureDetector','create')  
-            LATCH_create = import_from('cv2','xfeatures2d_LATCH','create')                                             
-            LUCID_create = import_from('cv2','xfeatures2d_LUCID','create')  
-            VGG_create = import_from('cv2','xfeatures2d_VGG','create')                
+            SIFT_create = import_from('cv2.xfeatures2d','SIFT_create')
+            SURF_create = import_from('cv2.xfeatures2d','SURF_create')
+            ORB_create = import_from('cv2','ORB')
 
-        # pure detectors 
-        self.FAST_create  = import_from('cv2','FastFeatureDetector_create')
-        self.AGAST_create = import_from('cv2','AgastFeatureDetector_create')       
-        self.GFTT_create  = import_from('cv2','GFTTDetector_create')
-        self.MSER_create  = import_from('cv2','MSER_create')
-        self.MSD_create   = MSD_create
-        self.STAR_create  = STAR_create 
-        self.HL_create    = HL_create
+        # pure detectors
         # detectors and descriptors 
         self.SIFT_create = SIFT_create
         self.SURF_create = SURF_create
-        self.ORB_create = ORB_create 
-        self.BRISK_create = BRISK_create            
-        self.AKAZE_create = AKAZE_create   
-        self.KAZE_create = KAZE_create           
-        # pure descriptors
-        self.FREAK_create = FREAK_create   # only descriptor 
-        self.BoostDesc_create = BoostDesc_create
-        self.DAISY_create = DAISY_create
-        self.LATCH_create = LATCH_create 
-        self.LUCID_create = LUCID_create    
-        self.VGG_create = VGG_create     
+        self.ORB_create = ORB_create
 
         # --------------------------------------------- #
         # check if we want descriptor == detector   
