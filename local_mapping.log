@@ -4,488 +4,1110 @@ processing KF:  2 , queue size:  0
  # culled points:  0
 >>>> creating new map points
 local map keyframes:  [1, 0]  +  2 ...
-# added map points: 136 for KFs (2, 1)
-# added map points: 72 for KFs (2, 0)
- # new map points: 208 
+# added map points: 143 for KFs (2, 1)
+# added map points: 69 for KFs (2, 0)
+ # new map points: 212 
 >>>> fusing map points
 local map keyframes:  [1, 0]  +  2 ...
-# fused map points: 51 for KFs (2, 1)
-# fused map points: 80 for KFs (2, 0)
-# fused map points: 2 for local map into KF 2
- # fused map points: 133 
-local optimization error^2:   0.128746
+# fused map points: 47 for KFs (2, 1)
+# fused map points: 86 for KFs (2, 0)
+# fused map points: 1 for local map into KF 2
+ # fused map points: 134 
+local optimization error^2:   0.128885
 >>>> culling keyframes...
  # culled keyframes: 0 
-local mapping duration:  0.3768961429595947
+local mapping duration:  0.22354912757873535
 ..................................
 processing KF:  3 , queue size:  0
 >>>> culling map points...
- # culled points:  137
+ # culled points:  112
 >>>> creating new map points
-local map keyframes:  [1, 0, 2]  +  3 ...
-# added map points: 70 for KFs (3, 1)
-# added map points: 40 for KFs (3, 0)
-# added map points: 102 for KFs (3, 2)
- # new map points: 212 
+local map keyframes:  [1, 2, 0]  +  3 ...
+# added map points: 51 for KFs (3, 1)
+# added map points: 95 for KFs (3, 2)
+# added map points: 29 for KFs (3, 0)
+ # new map points: 175 
 >>>> fusing map points
-local map keyframes:  [1, 0, 2]  +  3 ...
-# fused map points: 79 for KFs (3, 1)
-# fused map points: 61 for KFs (3, 0)
-# fused map points: 56 for KFs (3, 2)
-# fused map points: 70 for local map into KF 3
- # fused map points: 266 
-local optimization error^2:   0.181637
+local map keyframes:  [1, 2, 0]  +  3 ...
+# fused map points: 61 for KFs (3, 1)
+# fused map points: 47 for KFs (3, 2)
+# fused map points: 42 for KFs (3, 0)
+# fused map points: 14 for local map into KF 3
+ # fused map points: 164 
+local optimization error^2:   0.191873
 >>>> culling keyframes...
  # culled keyframes: 0 
-local mapping duration:  0.45372581481933594
+local mapping duration:  0.2942330837249756
 ..................................
 processing KF:  4 , queue size:  0
 >>>> culling map points...
- # culled points:  230
+ # culled points:  235
 >>>> creating new map points
-local map keyframes:  [1, 0, 2, 3]  +  4 ...
-# added map points: 33 for KFs (4, 1)
+local map keyframes:  [1, 2, 0, 3]  +  4 ...
+# added map points: 31 for KFs (4, 1)
+# added map points: 47 for KFs (4, 2)
 # added map points: 12 for KFs (4, 0)
-# added map points: 46 for KFs (4, 2)
 # added map points: 86 for KFs (4, 3)
- # new map points: 177 
+ # new map points: 176 
 >>>> fusing map points
-local map keyframes:  [1, 0, 2, 3]  +  4 ...
-# fused map points: 50 for KFs (4, 1)
-# fused map points: 38 for KFs (4, 0)
-# fused map points: 44 for KFs (4, 2)
-# fused map points: 39 for KFs (4, 3)
-# fused map points: 76 for local map into KF 4
- # fused map points: 247 
-local optimization error^2:   0.238452
+local map keyframes:  [1, 2, 0, 3]  +  4 ...
+# fused map points: 53 for KFs (4, 1)
+# fused map points: 55 for KFs (4, 2)
+# fused map points: 36 for KFs (4, 0)
+# fused map points: 45 for KFs (4, 3)
+# fused map points: 68 for local map into KF 4
+ # fused map points: 257 
+local optimization error^2:   0.250269
 >>>> culling keyframes...
  # culled keyframes: 0 
-local mapping duration:  0.5891027450561523
+local mapping duration:  0.35098814964294434
 ..................................
 processing KF:  5 , queue size:  0
 >>>> culling map points...
- # culled points:  195
+ # culled points:  180
 >>>> creating new map points
-local map keyframes:  [1, 2, 3, 0, 4]  +  5 ...
-# added map points: 20 for KFs (5, 1)
-# added map points: 26 for KFs (5, 2)
+local map keyframes:  [2, 1, 3, 4, 0]  +  5 ...
+# added map points: 24 for KFs (5, 2)
+# added map points: 15 for KFs (5, 1)
 # added map points: 46 for KFs (5, 3)
-# added map points: 17 for KFs (5, 0)
-# added map points: 74 for KFs (5, 4)
- # new map points: 183 
+# added map points: 70 for KFs (5, 4)
+# added map points: 15 for KFs (5, 0)
+ # new map points: 170 
 >>>> fusing map points
-local map keyframes:  [1, 2, 3, 0, 4]  +  5 ...
-# fused map points: 56 for KFs (5, 1)
-# fused map points: 57 for KFs (5, 2)
+local map keyframes:  [2, 1, 3, 4, 0]  +  5 ...
+# fused map points: 59 for KFs (5, 2)
+# fused map points: 39 for KFs (5, 1)
 # fused map points: 49 for KFs (5, 3)
-# fused map points: 21 for KFs (5, 0)
-# fused map points: 38 for KFs (5, 4)
-# fused map points: 52 for local map into KF 5
- # fused map points: 273 
-local optimization error^2:   0.263272
+# fused map points: 39 for KFs (5, 4)
+# fused map points: 19 for KFs (5, 0)
+# fused map points: 34 for local map into KF 5
+ # fused map points: 239 
+local optimization error^2:   0.269893
 >>>> culling keyframes...
  # culled keyframes: 0 
-local mapping duration:  0.742117166519165
+local mapping duration:  0.3912339210510254
+..................................
+processing KF:  6 , queue size:  0
+>>>> culling map points...
+ # culled points:  177
+>>>> creating new map points
+local map keyframes:  [2, 4, 5, 1, 3, 0]  +  6 ...
+# added map points: 20 for KFs (6, 2)
+# added map points: 37 for KFs (6, 4)
+# added map points: 82 for KFs (6, 5)
+# added map points: 11 for KFs (6, 1)
+# added map points: 24 for KFs (6, 3)
+# added map points: 12 for KFs (6, 0)
+ # new map points: 186 
+>>>> fusing map points
+local map keyframes:  [2, 4, 5, 1, 3, 0]  +  6 ...
+# fused map points: 54 for KFs (6, 2)
+# fused map points: 61 for KFs (6, 4)
+# fused map points: 54 for KFs (6, 5)
+# fused map points: 31 for KFs (6, 1)
+# fused map points: 47 for KFs (6, 3)
+# fused map points: 22 for KFs (6, 0)
+# fused map points: 52 for local map into KF 6
+ # fused map points: 321 
+local optimization error^2:   0.299543
+>>>> culling keyframes...
+ # culled keyframes: 0 
+local mapping duration:  0.4460561275482178
 ..................................
 processing KF:  7 , queue size:  0
 >>>> culling map points...
- # culled points:  183
+ # culled points:  179
 >>>> creating new map points
-local map keyframes:  [5, 4, 3, 2, 1, 0]  +  7 ...
-# added map points: 61 for KFs (7, 5)
-# added map points: 32 for KFs (7, 4)
-# added map points: 14 for KFs (7, 3)
-# added map points: 13 for KFs (7, 2)
-# added map points: 16 for KFs (7, 1)
-# added map points: 8 for KFs (7, 0)
- # new map points: 144 
+local map keyframes:  [5, 3, 4, 2, 6, 1, 0]  +  7 ...
+# added map points: 50 for KFs (7, 5)
+# added map points: 11 for KFs (7, 3)
+# added map points: 22 for KFs (7, 4)
+# added map points: 7 for KFs (7, 2)
+# added map points: 66 for KFs (7, 6)
+# added map points: 15 for KFs (7, 1)
+# added map points: 7 for KFs (7, 0)
+ # new map points: 178 
 >>>> fusing map points
-local map keyframes:  [5, 4, 3, 2, 1, 0]  +  7 ...
-# fused map points: 56 for KFs (7, 5)
-# fused map points: 57 for KFs (7, 4)
-# fused map points: 52 for KFs (7, 3)
-# fused map points: 39 for KFs (7, 2)
-# fused map points: 34 for KFs (7, 1)
-# fused map points: 32 for KFs (7, 0)
-# fused map points: 8 for local map into KF 7
- # fused map points: 278 
-local optimization error^2:   0.302102
+local map keyframes:  [5, 3, 4, 2, 6, 1, 0]  +  7 ...
+# fused map points: 68 for KFs (7, 5)
+# fused map points: 47 for KFs (7, 3)
+# fused map points: 55 for KFs (7, 4)
+# fused map points: 34 for KFs (7, 2)
+# fused map points: 45 for KFs (7, 6)
+# fused map points: 21 for KFs (7, 1)
+# fused map points: 18 for KFs (7, 0)
+# fused map points: 68 for local map into KF 7
+ # fused map points: 356 
+local optimization error^2:   0.335027
 >>>> culling keyframes...
  # culled keyframes: 0 
-local mapping duration:  0.7375612258911133
+local mapping duration:  0.5478208065032959
+..................................
+processing KF:  8 , queue size:  0
+>>>> culling map points...
+ # culled points:  183
+>>>> creating new map points
+local map keyframes:  [5, 6, 7, 3, 4, 2, 1, 0]  +  8 ...
+# added map points: 31 for KFs (8, 5)
+# added map points: 55 for KFs (8, 6)
+# added map points: 60 for KFs (8, 7)
+# added map points: 11 for KFs (8, 3)
+# added map points: 8 for KFs (8, 4)
+# added map points: 7 for KFs (8, 2)
+# added map points: 7 for KFs (8, 1)
+# added map points: 3 for KFs (8, 0)
+ # new map points: 182 
+>>>> fusing map points
+local map keyframes:  [5, 6, 7, 3, 4, 2, 1, 0]  +  8 ...
+# fused map points: 59 for KFs (8, 5)
+# fused map points: 52 for KFs (8, 6)
+# fused map points: 61 for KFs (8, 7)
+# fused map points: 36 for KFs (8, 3)
+# fused map points: 24 for KFs (8, 4)
+# fused map points: 15 for KFs (8, 2)
+# fused map points: 16 for KFs (8, 1)
+# fused map points: 15 for KFs (8, 0)
+# fused map points: 67 for local map into KF 8
+ # fused map points: 345 
+local optimization error^2:   0.361411
+>>>> culling keyframes...
+ # culled keyframes: 0 
+local mapping duration:  0.5991659164428711
 ..................................
 processing KF:  9 , queue size:  0
 >>>> culling map points...
- # culled points:  145
+ # culled points:  193
 >>>> creating new map points
-local map keyframes:  [7, 5, 4, 3, 2, 0, 1]  +  9 ...
-# added map points: 47 for KFs (9, 7)
-# added map points: 25 for KFs (9, 5)
-# added map points: 12 for KFs (9, 4)
+local map keyframes:  [5, 6, 7, 8, 4, 3, 2, 1, 0]  +  9 ...
+# added map points: 16 for KFs (9, 5)
+# added map points: 20 for KFs (9, 6)
+# added map points: 39 for KFs (9, 7)
+# added map points: 73 for KFs (9, 8)
+# added map points: 6 for KFs (9, 4)
 # added map points: 8 for KFs (9, 3)
-# added map points: 10 for KFs (9, 2)
-# added map points: 12 for KFs (9, 0)
-# added map points: 4 for KFs (9, 1)
- # new map points: 118 
+# added map points: 6 for KFs (9, 2)
+# added map points: 7 for KFs (9, 1)
+# added map points: 6 for KFs (9, 0)
+ # new map points: 181 
 >>>> fusing map points
-local map keyframes:  [7, 5, 4, 3, 2, 0, 1]  +  9 ...
-# fused map points: 39 for KFs (9, 7)
-# fused map points: 36 for KFs (9, 5)
-# fused map points: 33 for KFs (9, 4)
-# fused map points: 28 for KFs (9, 3)
-# fused map points: 29 for KFs (9, 2)
-# fused map points: 20 for KFs (9, 0)
-# fused map points: 23 for KFs (9, 1)
-# fused map points: 8 for local map into KF 9
- # fused map points: 216 
-local optimization error^2:   0.322403
+local map keyframes:  [5, 6, 7, 8, 4, 3, 2, 1, 0]  +  9 ...
+# fused map points: 49 for KFs (9, 5)
+# fused map points: 57 for KFs (9, 6)
+# fused map points: 51 for KFs (9, 7)
+# fused map points: 42 for KFs (9, 8)
+# fused map points: 21 for KFs (9, 4)
+# fused map points: 16 for KFs (9, 3)
+# fused map points: 15 for KFs (9, 2)
+# fused map points: 12 for KFs (9, 1)
+# fused map points: 16 for KFs (9, 0)
+# fused map points: 50 for local map into KF 9
+ # fused map points: 329 
+local optimization error^2:   0.378151
 >>>> culling keyframes...
  # culled keyframes: 0 
-local mapping duration:  0.7532470226287842
+local mapping duration:  0.6311161518096924
+..................................
+processing KF:  10 , queue size:  0
+>>>> culling map points...
+ # culled points:  168
+>>>> creating new map points
+local map keyframes:  [8, 6, 5, 7, 9, 4, 3, 1, 2, 0]  +  10 ...
+# added map points: 47 for KFs (10, 8)
+# added map points: 14 for KFs (10, 6)
+# added map points: 14 for KFs (10, 5)
+# added map points: 18 for KFs (10, 7)
+# added map points: 73 for KFs (10, 9)
+# added map points: 9 for KFs (10, 4)
+# added map points: 9 for KFs (10, 3)
+# added map points: 4 for KFs (10, 1)
+# added map points: 4 for KFs (10, 2)
+# added map points: 2 for KFs (10, 0)
+ # new map points: 194 
+>>>> fusing map points
+local map keyframes:  [8, 6, 5, 7, 9, 4, 3, 1, 2, 0]  +  10 ...
+# fused map points: 82 for KFs (10, 8)
+# fused map points: 56 for KFs (10, 6)
+# fused map points: 38 for KFs (10, 5)
+# fused map points: 49 for KFs (10, 7)
+# fused map points: 46 for KFs (10, 9)
+# fused map points: 24 for KFs (10, 4)
+# fused map points: 17 for KFs (10, 3)
+# fused map points: 14 for KFs (10, 1)
+# fused map points: 8 for KFs (10, 2)
+# fused map points: 9 for KFs (10, 0)
+# fused map points: 43 for local map into KF 10
+ # fused map points: 386 
+local optimization error^2:   0.393811
+>>>> culling keyframes...
+ # culled keyframes: 0 
+local mapping duration:  0.7030348777770996
 ..................................
 processing KF:  11 , queue size:  0
 >>>> culling map points...
- # culled points:  125
+ # culled points:  200
 >>>> creating new map points
-local map keyframes:  [7, 9, 5, 4, 3, 2, 0, 1]  +  11 ...
-# added map points: 29 for KFs (11, 7)
-# added map points: 65 for KFs (11, 9)
-# added map points: 17 for KFs (11, 5)
-# added map points: 14 for KFs (11, 4)
-# added map points: 5 for KFs (11, 3)
-# added map points: 7 for KFs (11, 2)
-# added map points: 5 for KFs (11, 0)
-# added map points: 1 for KFs (11, 1)
- # new map points: 143 
+local map keyframes:  [8, 7, 6, 10, 9, 5, 4, 3, 2, 1, 0]  +  11 ...
+# added map points: 28 for KFs (11, 8)
+# added map points: 15 for KFs (11, 7)
+# added map points: 3 for KFs (11, 6)
+# added map points: 86 for KFs (11, 10)
+# added map points: 37 for KFs (11, 9)
+# added map points: 11 for KFs (11, 5)
+# added map points: 12 for KFs (11, 4)
+# added map points: 6 for KFs (11, 3)
+# added map points: 6 for KFs (11, 2)
+# added map points: 4 for KFs (11, 1)
+# added map points: 4 for KFs (11, 0)
+ # new map points: 212 
 >>>> fusing map points
-local map keyframes:  [7, 9, 5, 4, 3, 2, 0, 1]  +  11 ...
-# fused map points: 60 for KFs (11, 7)
-# fused map points: 30 for KFs (11, 9)
-# fused map points: 37 for KFs (11, 5)
-# fused map points: 26 for KFs (11, 4)
-# fused map points: 30 for KFs (11, 3)
-# fused map points: 19 for KFs (11, 2)
-# fused map points: 13 for KFs (11, 0)
-# fused map points: 19 for KFs (11, 1)
-# fused map points: 11 for local map into KF 11
- # fused map points: 245 
-local optimization error^2:   0.336228
+local map keyframes:  [8, 7, 6, 10, 9, 5, 4, 3, 2, 1, 0]  +  11 ...
+# fused map points: 84 for KFs (11, 8)
+# fused map points: 50 for KFs (11, 7)
+# fused map points: 40 for KFs (11, 6)
+# fused map points: 48 for KFs (11, 10)
+# fused map points: 51 for KFs (11, 9)
+# fused map points: 22 for KFs (11, 5)
+# fused map points: 24 for KFs (11, 4)
+# fused map points: 18 for KFs (11, 3)
+# fused map points: 14 for KFs (11, 2)
+# fused map points: 11 for KFs (11, 1)
+# fused map points: 14 for KFs (11, 0)
+# fused map points: 43 for local map into KF 11
+ # fused map points: 419 
+local optimization error^2:   0.403236
 >>>> culling keyframes...
  # culled keyframes: 0 
-local mapping duration:  0.8767800331115723
+local mapping duration:  0.7969710826873779
 ..................................
 processing KF:  13 , queue size:  0
 >>>> culling map points...
- # culled points:  133
+ # culled points:  196
 >>>> creating new map points
-local map keyframes:  [11, 9, 7, 5, 3, 4, 2, 1, 0]  +  13 ...
-# added map points: 61 for KFs (13, 11)
-# added map points: 27 for KFs (13, 9)
-# added map points: 25 for KFs (13, 7)
-# added map points: 8 for KFs (13, 5)
-# added map points: 6 for KFs (13, 3)
-# added map points: 5 for KFs (13, 4)
-# added map points: 3 for KFs (13, 2)
-# added map points: 2 for KFs (13, 1)
+local map keyframes:  [11, 10, 9, 8, 7, 6, 5, 3, 4, 1, 2, 0]  +  13 ...
+# added map points: 49 for KFs (13, 11)
+# added map points: 30 for KFs (13, 10)
+# added map points: 17 for KFs (13, 9)
+# added map points: 14 for KFs (13, 8)
+# added map points: 16 for KFs (13, 7)
+# added map points: 11 for KFs (13, 6)
+# added map points: 7 for KFs (13, 5)
+# added map points: 5 for KFs (13, 3)
+# added map points: 1 for KFs (13, 4)
+# added map points: 3 for KFs (13, 1)
+# added map points: 2 for KFs (13, 2)
 # added map points: 1 for KFs (13, 0)
- # new map points: 138 
+ # new map points: 156 
 >>>> fusing map points
-local map keyframes:  [11, 9, 7, 5, 3, 4, 2, 1, 0]  +  13 ...
-# fused map points: 54 for KFs (13, 11)
-# fused map points: 47 for KFs (13, 9)
-# fused map points: 31 for KFs (13, 7)
-# fused map points: 25 for KFs (13, 5)
-# fused map points: 16 for KFs (13, 3)
-# fused map points: 16 for KFs (13, 4)
-# fused map points: 15 for KFs (13, 2)
-# fused map points: 13 for KFs (13, 1)
-# fused map points: 14 for KFs (13, 0)
-# fused map points: 11 for local map into KF 13
- # fused map points: 242 
-local optimization error^2:   0.349619
+local map keyframes:  [11, 10, 9, 8, 7, 6, 5, 3, 4, 1, 2, 0]  +  13 ...
+# fused map points: 74 for KFs (13, 11)
+# fused map points: 64 for KFs (13, 10)
+# fused map points: 45 for KFs (13, 9)
+# fused map points: 44 for KFs (13, 8)
+# fused map points: 27 for KFs (13, 7)
+# fused map points: 21 for KFs (13, 6)
+# fused map points: 19 for KFs (13, 5)
+# fused map points: 10 for KFs (13, 3)
+# fused map points: 12 for KFs (13, 4)
+# fused map points: 14 for KFs (13, 1)
+# fused map points: 8 for KFs (13, 2)
+# fused map points: 9 for KFs (13, 0)
+# fused map points: 16 for local map into KF 13
+ # fused map points: 363 
+local optimization error^2:   0.414961
 >>>> culling keyframes...
  # culled keyframes: 0 
-local mapping duration:  0.9705121517181396
+local mapping duration:  0.8076932430267334
 ..................................
 processing KF:  15 , queue size:  0
 >>>> culling map points...
- # culled points:  144
+ # culled points:  184
 >>>> creating new map points
-local map keyframes:  [13, 11, 7, 9, 5, 4, 3, 1, 2, 0]  +  15 ...
-# added map points: 54 for KFs (15, 13)
-# added map points: 21 for KFs (15, 11)
-# added map points: 16 for KFs (15, 7)
-# added map points: 17 for KFs (15, 9)
-# added map points: 5 for KFs (15, 5)
-# added map points: 1 for KFs (15, 4)
-# added map points: 0 for KFs (15, 3)
+local map keyframes:  [13, 11, 10, 8, 9, 7, 6, 5, 3, 1, 4, 2, 0]  +  15 ...
+# added map points: 55 for KFs (15, 13)
+# added map points: 22 for KFs (15, 11)
+# added map points: 21 for KFs (15, 10)
+# added map points: 12 for KFs (15, 8)
+# added map points: 10 for KFs (15, 9)
+# added map points: 9 for KFs (15, 7)
+# added map points: 1 for KFs (15, 6)
+# added map points: 2 for KFs (15, 5)
+# added map points: 3 for KFs (15, 3)
 # added map points: 2 for KFs (15, 1)
+# added map points: 0 for KFs (15, 4)
 # added map points: 1 for KFs (15, 2)
 # added map points: 1 for KFs (15, 0)
- # new map points: 118 
+ # new map points: 139 
 >>>> fusing map points
-local map keyframes:  [13, 11, 7, 9, 5, 4, 3, 1, 2, 0]  +  15 ...
-# fused map points: 40 for KFs (15, 13)
-# fused map points: 35 for KFs (15, 11)
-# fused map points: 28 for KFs (15, 7)
-# fused map points: 28 for KFs (15, 9)
-# fused map points: 16 for KFs (15, 5)
-# fused map points: 19 for KFs (15, 4)
-# fused map points: 8 for KFs (15, 3)
-# fused map points: 6 for KFs (15, 1)
+local map keyframes:  [13, 11, 10, 8, 9, 7, 6, 5, 3, 1, 4, 2, 0]  +  15 ...
+# fused map points: 52 for KFs (15, 13)
+# fused map points: 48 for KFs (15, 11)
+# fused map points: 37 for KFs (15, 10)
+# fused map points: 25 for KFs (15, 8)
+# fused map points: 29 for KFs (15, 9)
+# fused map points: 24 for KFs (15, 7)
+# fused map points: 16 for KFs (15, 6)
+# fused map points: 12 for KFs (15, 5)
+# fused map points: 9 for KFs (15, 3)
+# fused map points: 5 for KFs (15, 1)
+# fused map points: 14 for KFs (15, 4)
 # fused map points: 8 for KFs (15, 2)
-# fused map points: 7 for KFs (15, 0)
+# fused map points: 6 for KFs (15, 0)
 # fused map points: 12 for local map into KF 15
- # fused map points: 207 
-local optimization error^2:   0.374638
+ # fused map points: 297 
+local optimization error^2:   0.422532
 >>>> culling keyframes...
  # culled keyframes: 0 
-local mapping duration:  1.1599879264831543
+local mapping duration:  0.8002066612243652
 ..................................
 processing KF:  17 , queue size:  0
 >>>> culling map points...
- # culled points:  129
+ # culled points:  134
 >>>> creating new map points
-local map keyframes:  [15, 13, 11, 9, 7, 5, 4, 3, 1, 2, 0]  +  17 ...
-# added map points: 68 for KFs (17, 15)
-# added map points: 31 for KFs (17, 13)
+local map keyframes:  [15, 13, 11, 10, 9, 8, 7, 6, 5, 1, 4, 3, 2, 0]  +  17 ...
+# added map points: 61 for KFs (17, 15)
+# added map points: 28 for KFs (17, 13)
 # added map points: 16 for KFs (17, 11)
-# added map points: 11 for KFs (17, 9)
-# added map points: 4 for KFs (17, 7)
+# added map points: 11 for KFs (17, 10)
+# added map points: 7 for KFs (17, 9)
+# added map points: 6 for KFs (17, 8)
+# added map points: 2 for KFs (17, 7)
+# added map points: 3 for KFs (17, 6)
 # added map points: 0 for KFs (17, 5)
+# added map points: 0 for KFs (17, 1)
 # added map points: 2 for KFs (17, 4)
 # added map points: 0 for KFs (17, 3)
-# added map points: 0 for KFs (17, 1)
 # added map points: 1 for KFs (17, 2)
-# added map points: 1 for KFs (17, 0)
- # new map points: 134 
+# added map points: 0 for KFs (17, 0)
+ # new map points: 137 
 >>>> fusing map points
-local map keyframes:  [15, 13, 11, 9, 7, 5, 4, 3, 1, 2, 0]  +  17 ...
-# fused map points: 44 for KFs (17, 15)
-# fused map points: 45 for KFs (17, 13)
-# fused map points: 34 for KFs (17, 11)
-# fused map points: 21 for KFs (17, 9)
-# fused map points: 18 for KFs (17, 7)
-# fused map points: 10 for KFs (17, 5)
-# fused map points: 11 for KFs (17, 4)
-# fused map points: 9 for KFs (17, 3)
-# fused map points: 10 for KFs (17, 1)
-# fused map points: 9 for KFs (17, 2)
-# fused map points: 8 for KFs (17, 0)
-# fused map points: 13 for local map into KF 17
- # fused map points: 232 
-local optimization error^2:   0.386248
+local map keyframes:  [15, 13, 11, 10, 9, 8, 7, 6, 5, 1, 4, 3, 2, 0]  +  17 ...
+# fused map points: 50 for KFs (17, 15)
+# fused map points: 49 for KFs (17, 13)
+# fused map points: 28 for KFs (17, 11)
+# fused map points: 28 for KFs (17, 10)
+# fused map points: 24 for KFs (17, 9)
+# fused map points: 18 for KFs (17, 8)
+# fused map points: 16 for KFs (17, 7)
+# fused map points: 17 for KFs (17, 6)
+# fused map points: 12 for KFs (17, 5)
+# fused map points: 9 for KFs (17, 1)
+# fused map points: 6 for KFs (17, 4)
+# fused map points: 6 for KFs (17, 3)
+# fused map points: 6 for KFs (17, 2)
+# fused map points: 6 for KFs (17, 0)
+# fused map points: 7 for local map into KF 17
+ # fused map points: 282 
+local optimization error^2:   0.430084
 >>>> culling keyframes...
- # culled keyframes: 0 
-local mapping duration:  1.5169358253479004
+setting keyframe  6  bad - redundant observations:  0.9006085192697769 %
+ # culled keyframes: 1 
+local mapping duration:  0.854301929473877
 ..................................
 processing KF:  19 , queue size:  0
 >>>> culling map points...
- # culled points:  120
+ # culled points:  131
 >>>> creating new map points
-local map keyframes:  [17, 15, 13, 11, 9, 7, 5, 4, 3, 1, 0, 2]  +  19 ...
-# added map points: 54 for KFs (19, 17)
-# added map points: 31 for KFs (19, 15)
-# added map points: 17 for KFs (19, 13)
-# added map points: 10 for KFs (19, 11)
+local map keyframes:  [17, 15, 13, 11, 10, 9, 8, 7, 5, 4, 3, 1, 2, 0]  +  19 ...
+# added map points: 62 for KFs (19, 17)
+# added map points: 26 for KFs (19, 15)
+# added map points: 20 for KFs (19, 13)
+# added map points: 8 for KFs (19, 11)
+# added map points: 7 for KFs (19, 10)
 # added map points: 7 for KFs (19, 9)
-# added map points: 3 for KFs (19, 7)
-# added map points: 3 for KFs (19, 5)
-# added map points: 0 for KFs (19, 4)
+# added map points: 3 for KFs (19, 8)
+# added map points: 2 for KFs (19, 7)
+# added map points: 1 for KFs (19, 5)
+# added map points: 1 for KFs (19, 4)
 # added map points: 0 for KFs (19, 3)
 # added map points: 0 for KFs (19, 1)
-# added map points: 0 for KFs (19, 0)
 # added map points: 0 for KFs (19, 2)
- # new map points: 125 
+# added map points: 1 for KFs (19, 0)
+ # new map points: 138 
 >>>> fusing map points
-local map keyframes:  [17, 15, 13, 11, 9, 7, 5, 4, 3, 1, 0, 2]  +  19 ...
-# fused map points: 36 for KFs (19, 17)
-# fused map points: 36 for KFs (19, 15)
-# fused map points: 35 for KFs (19, 13)
-# fused map points: 30 for KFs (19, 11)
-# fused map points: 20 for KFs (19, 9)
-# fused map points: 19 for KFs (19, 7)
+local map keyframes:  [17, 15, 13, 11, 10, 9, 8, 7, 5, 4, 3, 1, 2, 0]  +  19 ...
+# fused map points: 41 for KFs (19, 17)
+# fused map points: 47 for KFs (19, 15)
+# fused map points: 33 for KFs (19, 13)
+# fused map points: 32 for KFs (19, 11)
+# fused map points: 26 for KFs (19, 10)
+# fused map points: 16 for KFs (19, 9)
+# fused map points: 19 for KFs (19, 8)
+# fused map points: 18 for KFs (19, 7)
 # fused map points: 9 for KFs (19, 5)
-# fused map points: 9 for KFs (19, 4)
-# fused map points: 7 for KFs (19, 3)
-# fused map points: 3 for KFs (19, 1)
-# fused map points: 6 for KFs (19, 0)
-# fused map points: 4 for KFs (19, 2)
-# fused map points: 20 for local map into KF 19
- # fused map points: 234 
-local optimization error^2:   0.400944
+# fused map points: 6 for KFs (19, 4)
+# fused map points: 9 for KFs (19, 3)
+# fused map points: 2 for KFs (19, 1)
+# fused map points: 5 for KFs (19, 2)
+# fused map points: 3 for KFs (19, 0)
+# fused map points: 12 for local map into KF 19
+ # fused map points: 278 
+local optimization error^2:   0.435891
 >>>> culling keyframes...
  # culled keyframes: 0 
-local mapping duration:  1.1502320766448975
+local mapping duration:  0.7508151531219482
 ..................................
 processing KF:  21 , queue size:  0
 >>>> culling map points...
- # culled points:  132
+ # culled points:  135
 >>>> creating new map points
-local map keyframes:  [19, 17, 15, 13, 11, 9, 7, 5, 4, 1, 3, 2, 0]  +  21 ...
-# added map points: 58 for KFs (21, 19)
-# added map points: 29 for KFs (21, 17)
-# added map points: 23 for KFs (21, 15)
-# added map points: 6 for KFs (21, 13)
-# added map points: 4 for KFs (21, 11)
-# added map points: 1 for KFs (21, 9)
-# added map points: 2 for KFs (21, 7)
+local map keyframes:  [19, 17, 15, 13, 11, 10, 9, 8, 7, 5, 1, 2, 3, 4, 0]  +  21 ...
+# added map points: 62 for KFs (21, 19)
+# added map points: 25 for KFs (21, 17)
+# added map points: 22 for KFs (21, 15)
+# added map points: 5 for KFs (21, 13)
+# added map points: 5 for KFs (21, 11)
+# added map points: 3 for KFs (21, 10)
+# added map points: 0 for KFs (21, 9)
+# added map points: 1 for KFs (21, 8)
+# added map points: 1 for KFs (21, 7)
 # added map points: 0 for KFs (21, 5)
-# added map points: 0 for KFs (21, 4)
 # added map points: 0 for KFs (21, 1)
-# added map points: 0 for KFs (21, 3)
 # added map points: 0 for KFs (21, 2)
+# added map points: 1 for KFs (21, 3)
+# added map points: 0 for KFs (21, 4)
 # added map points: 0 for KFs (21, 0)
- # new map points: 123 
+ # new map points: 125 
 >>>> fusing map points
-local map keyframes:  [19, 17, 15, 13, 11, 9, 7, 5, 4, 1, 3, 2, 0]  +  21 ...
-# fused map points: 38 for KFs (21, 19)
-# fused map points: 42 for KFs (21, 17)
-# fused map points: 36 for KFs (21, 15)
+local map keyframes:  [19, 17, 15, 13, 11, 10, 9, 8, 7, 5, 1, 2, 3, 4, 0]  +  21 ...
+# fused map points: 40 for KFs (21, 19)
+# fused map points: 45 for KFs (21, 17)
+# fused map points: 35 for KFs (21, 15)
 # fused map points: 25 for KFs (21, 13)
-# fused map points: 15 for KFs (21, 11)
-# fused map points: 11 for KFs (21, 9)
-# fused map points: 12 for KFs (21, 7)
-# fused map points: 7 for KFs (21, 5)
-# fused map points: 3 for KFs (21, 4)
-# fused map points: 3 for KFs (21, 1)
-# fused map points: 4 for KFs (21, 3)
-# fused map points: 1 for KFs (21, 2)
-# fused map points: 1 for KFs (21, 0)
-# fused map points: 14 for local map into KF 21
- # fused map points: 212 
-local optimization error^2:   0.405504
+# fused map points: 19 for KFs (21, 11)
+# fused map points: 18 for KFs (21, 10)
+# fused map points: 12 for KFs (21, 9)
+# fused map points: 9 for KFs (21, 8)
+# fused map points: 11 for KFs (21, 7)
+# fused map points: 8 for KFs (21, 5)
+# fused map points: 4 for KFs (21, 1)
+# fused map points: 5 for KFs (21, 2)
+# fused map points: 7 for KFs (21, 3)
+# fused map points: 5 for KFs (21, 4)
+# fused map points: 3 for KFs (21, 0)
+# fused map points: 11 for local map into KF 21
+ # fused map points: 257 
+local optimization error^2:   0.442582
 >>>> culling keyframes...
  # culled keyframes: 0 
-local mapping duration:  1.2584328651428223
+local mapping duration:  0.9491257667541504
 ..................................
 processing KF:  23 , queue size:  0
 >>>> culling map points...
- # culled points:  116
+ # culled points:  119
 >>>> creating new map points
-local map keyframes:  [19, 21, 17, 15, 13, 11, 9, 7, 5, 4, 1, 0, 3, 2]  +  23 ...
-# added map points: 28 for KFs (23, 19)
-# added map points: 50 for KFs (23, 21)
-# added map points: 15 for KFs (23, 17)
-# added map points: 3 for KFs (23, 15)
-# added map points: 7 for KFs (23, 13)
+local map keyframes:  [21, 19, 17, 15, 13, 11, 10, 9, 8, 7, 5, 1, 3, 2, 4, 0]  +  23 ...
+# added map points: 51 for KFs (23, 21)
+# added map points: 30 for KFs (23, 19)
+# added map points: 14 for KFs (23, 17)
+# added map points: 7 for KFs (23, 15)
+# added map points: 9 for KFs (23, 13)
 # added map points: 1 for KFs (23, 11)
-# added map points: 1 for KFs (23, 9)
-# added map points: 2 for KFs (23, 7)
+# added map points: 1 for KFs (23, 10)
+# added map points: 0 for KFs (23, 9)
+# added map points: 1 for KFs (23, 8)
+# added map points: 1 for KFs (23, 7)
 # added map points: 0 for KFs (23, 5)
-# added map points: 1 for KFs (23, 4)
 # added map points: 0 for KFs (23, 1)
-# added map points: 0 for KFs (23, 0)
 # added map points: 0 for KFs (23, 3)
 # added map points: 0 for KFs (23, 2)
- # new map points: 108 
+# added map points: 0 for KFs (23, 4)
+# added map points: 0 for KFs (23, 0)
+ # new map points: 115 
 >>>> fusing map points
-local map keyframes:  [19, 21, 17, 15, 13, 11, 9, 7, 5, 4, 1, 0, 3, 2]  +  23 ...
-# fused map points: 37 for KFs (23, 19)
-# fused map points: 32 for KFs (23, 21)
-# fused map points: 24 for KFs (23, 17)
-# fused map points: 24 for KFs (23, 15)
-# fused map points: 17 for KFs (23, 13)
-# fused map points: 18 for KFs (23, 11)
-# fused map points: 10 for KFs (23, 9)
-# fused map points: 9 for KFs (23, 7)
-# fused map points: 11 for KFs (23, 5)
-# fused map points: 6 for KFs (23, 4)
-# fused map points: 5 for KFs (23, 1)
+local map keyframes:  [21, 19, 17, 15, 13, 11, 10, 9, 8, 7, 5, 1, 3, 2, 4, 0]  +  23 ...
+# fused map points: 37 for KFs (23, 21)
+# fused map points: 36 for KFs (23, 19)
+# fused map points: 29 for KFs (23, 17)
+# fused map points: 27 for KFs (23, 15)
+# fused map points: 19 for KFs (23, 13)
+# fused map points: 19 for KFs (23, 11)
+# fused map points: 13 for KFs (23, 10)
+# fused map points: 9 for KFs (23, 9)
+# fused map points: 8 for KFs (23, 8)
+# fused map points: 11 for KFs (23, 7)
+# fused map points: 8 for KFs (23, 5)
+# fused map points: 4 for KFs (23, 1)
+# fused map points: 4 for KFs (23, 3)
+# fused map points: 2 for KFs (23, 2)
+# fused map points: 3 for KFs (23, 4)
 # fused map points: 2 for KFs (23, 0)
-# fused map points: 9 for KFs (23, 3)
-# fused map points: 4 for KFs (23, 2)
-# fused map points: 24 for local map into KF 23
- # fused map points: 232 
-local optimization error^2:   0.414485
+# fused map points: 14 for local map into KF 23
+ # fused map points: 245 
+local optimization error^2:   0.458264
 >>>> culling keyframes...
  # culled keyframes: 0 
-local mapping duration:  1.3322720527648926
+local mapping duration:  0.9595069885253906
 ..................................
 processing KF:  25 , queue size:  0
 >>>> culling map points...
- # culled points:  117
+ # culled points:  125
 >>>> creating new map points
-local map keyframes:  [23, 21, 19, 17, 15, 13, 11, 9, 7, 5, 3, 1, 4, 0, 2]  +  25 ...
+local map keyframes:  [23, 21, 19, 17, 15, 13, 10, 11, 9, 8, 7, 5, 4, 1, 3, 0, 2]  +  25 ...
 # added map points: 55 for KFs (25, 23)
-# added map points: 33 for KFs (25, 21)
-# added map points: 16 for KFs (25, 19)
-# added map points: 8 for KFs (25, 17)
-# added map points: 3 for KFs (25, 15)
-# added map points: 2 for KFs (25, 13)
+# added map points: 34 for KFs (25, 21)
+# added map points: 19 for KFs (25, 19)
+# added map points: 10 for KFs (25, 17)
+# added map points: 2 for KFs (25, 15)
+# added map points: 1 for KFs (25, 13)
+# added map points: 2 for KFs (25, 10)
 # added map points: 2 for KFs (25, 11)
 # added map points: 0 for KFs (25, 9)
+# added map points: 1 for KFs (25, 8)
 # added map points: 0 for KFs (25, 7)
-# added map points: 1 for KFs (25, 5)
-# added map points: 1 for KFs (25, 3)
+# added map points: 0 for KFs (25, 5)
+# added map points: 1 for KFs (25, 4)
 # added map points: 0 for KFs (25, 1)
-# added map points: 0 for KFs (25, 4)
+# added map points: 1 for KFs (25, 3)
 # added map points: 0 for KFs (25, 0)
 # added map points: 0 for KFs (25, 2)
- # new map points: 121 
+ # new map points: 128 
 >>>> fusing map points
-local map keyframes:  [23, 21, 19, 17, 15, 13, 11, 9, 7, 5, 3, 1, 4, 0, 2]  +  25 ...
-# fused map points: 45 for KFs (25, 23)
-# fused map points: 38 for KFs (25, 21)
-# fused map points: 36 for KFs (25, 19)
-# fused map points: 27 for KFs (25, 17)
-# fused map points: 22 for KFs (25, 15)
+local map keyframes:  [23, 21, 19, 17, 15, 13, 10, 11, 9, 8, 7, 5, 4, 1, 3, 0, 2]  +  25 ...
+# fused map points: 54 for KFs (25, 23)
+# fused map points: 41 for KFs (25, 21)
+# fused map points: 35 for KFs (25, 19)
+# fused map points: 29 for KFs (25, 17)
+# fused map points: 19 for KFs (25, 15)
 # fused map points: 14 for KFs (25, 13)
-# fused map points: 18 for KFs (25, 11)
-# fused map points: 11 for KFs (25, 9)
-# fused map points: 7 for KFs (25, 7)
-# fused map points: 5 for KFs (25, 5)
-# fused map points: 5 for KFs (25, 3)
-# fused map points: 7 for KFs (25, 1)
-# fused map points: 5 for KFs (25, 4)
+# fused map points: 13 for KFs (25, 10)
+# fused map points: 16 for KFs (25, 11)
+# fused map points: 10 for KFs (25, 9)
+# fused map points: 10 for KFs (25, 8)
+# fused map points: 5 for KFs (25, 7)
+# fused map points: 4 for KFs (25, 5)
+# fused map points: 4 for KFs (25, 4)
+# fused map points: 5 for KFs (25, 1)
+# fused map points: 4 for KFs (25, 3)
 # fused map points: 4 for KFs (25, 0)
-# fused map points: 4 for KFs (25, 2)
-# fused map points: 10 for local map into KF 25
- # fused map points: 258 
-local optimization error^2:   0.419488
+# fused map points: 5 for KFs (25, 2)
+# fused map points: 8 for local map into KF 25
+ # fused map points: 280 
+local optimization error^2:   0.462963
 >>>> culling keyframes...
  # culled keyframes: 0 
-local mapping duration:  1.4187750816345215
+local mapping duration:  1.0988819599151611
 ..................................
 processing KF:  27 , queue size:  0
 >>>> culling map points...
- # culled points:  117
+ # culled points:  120
 >>>> creating new map points
-local map keyframes:  [23, 25, 21, 19, 17, 15, 13, 11, 9, 7, 5, 4, 3, 1, 2, 0]  +  27 ...
-# added map points: 34 for KFs (27, 23)
-# added map points: 67 for KFs (27, 25)
-# added map points: 16 for KFs (27, 21)
+local map keyframes:  [25, 23, 21, 19, 17, 15, 13, 10, 11, 8, 9, 7, 5, 4, 3, 2, 1, 0]  +  27 ...
+# added map points: 66 for KFs (27, 25)
+# added map points: 33 for KFs (27, 23)
+# added map points: 12 for KFs (27, 21)
 # added map points: 9 for KFs (27, 19)
-# added map points: 5 for KFs (27, 17)
-# added map points: 3 for KFs (27, 15)
-# added map points: 2 for KFs (27, 13)
+# added map points: 3 for KFs (27, 17)
+# added map points: 4 for KFs (27, 15)
+# added map points: 3 for KFs (27, 13)
+# added map points: 0 for KFs (27, 10)
 # added map points: 1 for KFs (27, 11)
+# added map points: 0 for KFs (27, 8)
 # added map points: 1 for KFs (27, 9)
 # added map points: 0 for KFs (27, 7)
 # added map points: 0 for KFs (27, 5)
-# added map points: 1 for KFs (27, 4)
+# added map points: 0 for KFs (27, 4)
 # added map points: 0 for KFs (27, 3)
-# added map points: 0 for KFs (27, 1)
 # added map points: 0 for KFs (27, 2)
+# added map points: 0 for KFs (27, 1)
 # added map points: 0 for KFs (27, 0)
- # new map points: 139 
+ # new map points: 132 
 >>>> fusing map points
-local map keyframes:  [23, 25, 21, 19, 17, 15, 13, 11, 9, 7, 5, 4, 3, 1, 2, 0]  +  27 ...
-# fused map points: 50 for KFs (27, 23)
-# fused map points: 34 for KFs (27, 25)
-# fused map points: 31 for KFs (27, 21)
-# fused map points: 21 for KFs (27, 19)
-# fused map points: 15 for KFs (27, 17)
-# fused map points: 21 for KFs (27, 15)
-# fused map points: 19 for KFs (27, 13)
-# fused map points: 13 for KFs (27, 11)
-# fused map points: 13 for KFs (27, 9)
-# fused map points: 7 for KFs (27, 7)
-# fused map points: 5 for KFs (27, 5)
+local map keyframes:  [25, 23, 21, 19, 17, 15, 13, 10, 11, 8, 9, 7, 5, 4, 3, 2, 1, 0]  +  27 ...
+# fused map points: 36 for KFs (27, 25)
+# fused map points: 44 for KFs (27, 23)
+# fused map points: 32 for KFs (27, 21)
+# fused map points: 20 for KFs (27, 19)
+# fused map points: 13 for KFs (27, 17)
+# fused map points: 18 for KFs (27, 15)
+# fused map points: 10 for KFs (27, 13)
+# fused map points: 13 for KFs (27, 10)
+# fused map points: 12 for KFs (27, 11)
+# fused map points: 7 for KFs (27, 8)
+# fused map points: 6 for KFs (27, 9)
+# fused map points: 6 for KFs (27, 7)
+# fused map points: 3 for KFs (27, 5)
 # fused map points: 5 for KFs (27, 4)
-# fused map points: 6 for KFs (27, 3)
-# fused map points: 3 for KFs (27, 1)
-# fused map points: 4 for KFs (27, 2)
-# fused map points: 6 for KFs (27, 0)
-# fused map points: 19 for local map into KF 27
- # fused map points: 272 
+# fused map points: 2 for KFs (27, 3)
+# fused map points: 1 for KFs (27, 2)
+# fused map points: 2 for KFs (27, 1)
+# fused map points: 4 for KFs (27, 0)
+# fused map points: 17 for local map into KF 27
+ # fused map points: 251 
+local optimization error^2:   0.468385
+>>>> culling keyframes...
+ # culled keyframes: 0 
+local mapping duration:  1.0915141105651855
+..................................
+processing KF:  29 , queue size:  0
+>>>> culling map points...
+ # culled points:  127
+>>>> creating new map points
+local map keyframes:  [27, 25, 23, 21, 19, 17, 15, 13, 11, 10, 9, 8, 7, 5, 4, 3, 1, 0, 2]  +  29 ...
+# added map points: 57 for KFs (29, 27)
+# added map points: 28 for KFs (29, 25)
+# added map points: 13 for KFs (29, 23)
+# added map points: 6 for KFs (29, 21)
+# added map points: 4 for KFs (29, 19)
+# added map points: 2 for KFs (29, 17)
+# added map points: 0 for KFs (29, 15)
+# added map points: 0 for KFs (29, 13)
+# added map points: 0 for KFs (29, 11)
+# added map points: 1 for KFs (29, 9)
+# added map points: 1 for KFs (29, 8)
+# added map points: 0 for KFs (29, 7)
+# added map points: 0 for KFs (29, 4)
+# added map points: 0 for KFs (29, 3)
+# added map points: 0 for KFs (29, 1)
+# added map points: 0 for KFs (29, 0)
+# added map points: 0 for KFs (29, 2)
+ # new map points: 112 
+>>>> fusing map points
+local map keyframes:  [27, 25, 23, 21, 19, 17, 15, 13, 11, 10, 9, 8, 7, 5, 4, 3, 1, 0, 2]  +  29 ...
+# fused map points: 38 for KFs (29, 27)
+# fused map points: 36 for KFs (29, 25)
+# fused map points: 31 for KFs (29, 23)
+# fused map points: 22 for KFs (29, 21)
+# fused map points: 9 for KFs (29, 19)
+# fused map points: 8 for KFs (29, 17)
+# fused map points: 13 for KFs (29, 15)
+# fused map points: 11 for KFs (29, 13)
+# fused map points: 5 for KFs (29, 11)
+# fused map points: 3 for KFs (29, 10)
+# fused map points: 3 for KFs (29, 9)
+# fused map points: 2 for KFs (29, 8)
+# fused map points: 7 for KFs (29, 7)
+# fused map points: 5 for KFs (29, 5)
+# fused map points: 2 for KFs (29, 4)
+# fused map points: 0 for KFs (29, 3)
+# fused map points: 2 for KFs (29, 1)
+# fused map points: 0 for KFs (29, 0)
+# fused map points: 2 for KFs (29, 2)
+# fused map points: 22 for local map into KF 29
+ # fused map points: 221 
+local optimization error^2:   0.476744
+>>>> culling keyframes...
+ # culled keyframes: 0 
+local mapping duration:  1.1162309646606445
+..................................
+processing KF:  31 , queue size:  0
+>>>> culling map points...
+ # culled points:  123
+>>>> creating new map points
+local map keyframes:  [27, 29, 25, 23, 21, 19, 15, 17, 13, 11, 10, 7, 8, 9, 5, 4, 3, 1, 0, 2]  +  31 ...
+# added map points: 30 for KFs (31, 27)
+# added map points: 73 for KFs (31, 29)
+# added map points: 22 for KFs (31, 25)
+# added map points: 3 for KFs (31, 23)
+# added map points: 3 for KFs (31, 21)
+# added map points: 3 for KFs (31, 19)
+# added map points: 1 for KFs (31, 15)
+# added map points: 0 for KFs (31, 17)
+# added map points: 0 for KFs (31, 13)
+# added map points: 0 for KFs (31, 11)
+# added map points: 0 for KFs (31, 10)
+# added map points: 0 for KFs (31, 7)
+# added map points: 0 for KFs (31, 8)
+# added map points: 0 for KFs (31, 5)
+# added map points: 0 for KFs (31, 4)
+# added map points: 0 for KFs (31, 3)
+# added map points: 0 for KFs (31, 1)
+# added map points: 0 for KFs (31, 2)
+ # new map points: 135 
+>>>> fusing map points
+local map keyframes:  [27, 29, 25, 23, 21, 19, 15, 17, 13, 11, 10, 7, 8, 9, 5, 4, 3, 1, 0, 2]  +  31 ...
+# fused map points: 49 for KFs (31, 27)
+# fused map points: 30 for KFs (31, 29)
+# fused map points: 30 for KFs (31, 25)
+# fused map points: 24 for KFs (31, 23)
+# fused map points: 9 for KFs (31, 21)
+# fused map points: 15 for KFs (31, 19)
+# fused map points: 14 for KFs (31, 15)
+# fused map points: 11 for KFs (31, 17)
+# fused map points: 7 for KFs (31, 13)
+# fused map points: 11 for KFs (31, 11)
+# fused map points: 1 for KFs (31, 10)
+# fused map points: 4 for KFs (31, 7)
+# fused map points: 1 for KFs (31, 8)
+# fused map points: 7 for KFs (31, 9)
+# fused map points: 3 for KFs (31, 5)
+# fused map points: 1 for KFs (31, 4)
+# fused map points: 2 for KFs (31, 3)
+# fused map points: 3 for KFs (31, 1)
+# fused map points: 4 for KFs (31, 0)
+# fused map points: 0 for KFs (31, 2)
+# fused map points: 18 for local map into KF 31
+ # fused map points: 244 
+local optimization error^2:   0.480927
+>>>> culling keyframes...
+ # culled keyframes: 0 
+local mapping duration:  1.1603641510009766
+..................................
+processing KF:  33 , queue size:  0
+>>>> culling map points...
+ # culled points:  116
+>>>> creating new map points
+local map keyframes:  [31, 29, 27, 25, 23, 21, 19, 17, 15, 13, 11, 9, 10, 7, 8, 5, 4, 3, 0, 2]  +  33 ...
+# added map points: 54 for KFs (33, 31)
+# added map points: 31 for KFs (33, 29)
+# added map points: 14 for KFs (33, 27)
+# added map points: 6 for KFs (33, 25)
+# added map points: 1 for KFs (33, 23)
+# added map points: 2 for KFs (33, 21)
+# added map points: 1 for KFs (33, 19)
+# added map points: 0 for KFs (33, 17)
+# added map points: 0 for KFs (33, 15)
+# added map points: 1 for KFs (33, 13)
+# added map points: 0 for KFs (33, 11)
+# added map points: 0 for KFs (33, 9)
+# added map points: 0 for KFs (33, 10)
+# added map points: 1 for KFs (33, 7)
+# added map points: 0 for KFs (33, 8)
+# added map points: 0 for KFs (33, 5)
+# added map points: 0 for KFs (33, 4)
+# added map points: 0 for KFs (33, 3)
+# added map points: 0 for KFs (33, 0)
+ # new map points: 111 
+>>>> fusing map points
+local map keyframes:  [31, 29, 27, 25, 23, 21, 19, 17, 15, 13, 11, 9, 10, 7, 8, 5, 4, 3, 0, 2]  +  33 ...
+# fused map points: 43 for KFs (33, 31)
+# fused map points: 32 for KFs (33, 29)
+# fused map points: 26 for KFs (33, 27)
+# fused map points: 25 for KFs (33, 25)
+# fused map points: 20 for KFs (33, 23)
+# fused map points: 15 for KFs (33, 21)
+# fused map points: 13 for KFs (33, 19)
+# fused map points: 5 for KFs (33, 17)
+# fused map points: 11 for KFs (33, 15)
+# fused map points: 9 for KFs (33, 13)
+# fused map points: 9 for KFs (33, 11)
+# fused map points: 5 for KFs (33, 9)
+# fused map points: 4 for KFs (33, 10)
+# fused map points: 8 for KFs (33, 7)
+# fused map points: 6 for KFs (33, 8)
+# fused map points: 4 for KFs (33, 5)
+# fused map points: 6 for KFs (33, 4)
+# fused map points: 4 for KFs (33, 3)
+# fused map points: 2 for KFs (33, 0)
+# fused map points: 4 for KFs (33, 2)
+# fused map points: 15 for local map into KF 33
+ # fused map points: 266 
+local optimization error^2:   0.477885
+>>>> culling keyframes...
+ # culled keyframes: 0 
+local mapping duration:  1.2092571258544922
+..................................
+processing KF:  35 , queue size:  0
+>>>> culling map points...
+ # culled points:  129
+>>>> creating new map points
+local map keyframes:  [33, 31, 29, 27, 25, 23, 21, 19, 17, 15, 11, 13, 10, 9, 8, 7, 5, 1, 4, 0]  +  35 ...
+# added map points: 86 for KFs (35, 33)
+# added map points: 34 for KFs (35, 31)
+# added map points: 13 for KFs (35, 29)
+# added map points: 3 for KFs (35, 27)
+# added map points: 8 for KFs (35, 25)
+# added map points: 3 for KFs (35, 23)
+# added map points: 1 for KFs (35, 21)
+# added map points: 3 for KFs (35, 19)
+# added map points: 1 for KFs (35, 17)
+# added map points: 1 for KFs (35, 15)
+# added map points: 0 for KFs (35, 11)
+# added map points: 0 for KFs (35, 13)
+# added map points: 0 for KFs (35, 10)
+# added map points: 0 for KFs (35, 9)
+# added map points: 0 for KFs (35, 8)
+# added map points: 0 for KFs (35, 7)
+ # new map points: 153 
+>>>> fusing map points
+local map keyframes:  [33, 31, 29, 27, 25, 23, 21, 19, 17, 15, 11, 13, 10, 9, 8, 7, 5, 1, 4, 0]  +  35 ...
+# fused map points: 47 for KFs (35, 33)
+# fused map points: 44 for KFs (35, 31)
+# fused map points: 41 for KFs (35, 29)
+# fused map points: 32 for KFs (35, 27)
+# fused map points: 28 for KFs (35, 25)
+# fused map points: 24 for KFs (35, 23)
+# fused map points: 24 for KFs (35, 21)
+# fused map points: 12 for KFs (35, 19)
+# fused map points: 15 for KFs (35, 17)
+# fused map points: 10 for KFs (35, 15)
+# fused map points: 10 for KFs (35, 11)
+# fused map points: 5 for KFs (35, 13)
+# fused map points: 6 for KFs (35, 10)
+# fused map points: 7 for KFs (35, 9)
+# fused map points: 4 for KFs (35, 8)
+# fused map points: 6 for KFs (35, 7)
+# fused map points: 4 for KFs (35, 5)
+# fused map points: 7 for KFs (35, 1)
+# fused map points: 5 for KFs (35, 4)
+# fused map points: 3 for KFs (35, 0)
+# fused map points: 9 for local map into KF 35
+ # fused map points: 343 
+local optimization error^2:   0.485965
+>>>> culling keyframes...
+ # culled keyframes: 0 
+local mapping duration:  1.25258207321167
+..................................
+processing KF:  37 , queue size:  0
+>>>> culling map points...
+ # culled points:  143
+>>>> creating new map points
+local map keyframes:  [35, 33, 31, 29, 27, 25, 23, 21, 19, 17, 15, 11, 13, 10, 9, 8, 7, 4, 5, 1]  +  37 ...
+# added map points: 102 for KFs (37, 35)
+# added map points: 35 for KFs (37, 33)
+# added map points: 18 for KFs (37, 31)
+# added map points: 7 for KFs (37, 29)
+# added map points: 6 for KFs (37, 27)
+# added map points: 1 for KFs (37, 25)
+# added map points: 3 for KFs (37, 23)
+# added map points: 1 for KFs (37, 21)
+# added map points: 1 for KFs (37, 19)
+# added map points: 0 for KFs (37, 17)
+# added map points: 0 for KFs (37, 15)
+# added map points: 0 for KFs (37, 11)
+# added map points: 0 for KFs (37, 13)
+# added map points: 0 for KFs (37, 10)
+# added map points: 0 for KFs (37, 9)
+# added map points: 0 for KFs (37, 8)
+ # new map points: 174 
+>>>> fusing map points
+local map keyframes:  [35, 33, 31, 29, 27, 25, 23, 21, 19, 17, 15, 11, 13, 10, 9, 8, 7, 4, 5, 1]  +  37 ...
+# fused map points: 40 for KFs (37, 35)
+# fused map points: 59 for KFs (37, 33)
+# fused map points: 50 for KFs (37, 31)
+# fused map points: 31 for KFs (37, 29)
+# fused map points: 19 for KFs (37, 27)
+# fused map points: 16 for KFs (37, 25)
+# fused map points: 17 for KFs (37, 23)
+# fused map points: 17 for KFs (37, 21)
+# fused map points: 13 for KFs (37, 19)
+# fused map points: 8 for KFs (37, 17)
+# fused map points: 11 for KFs (37, 15)
+# fused map points: 10 for KFs (37, 11)
+# fused map points: 9 for KFs (37, 13)
+# fused map points: 4 for KFs (37, 10)
+# fused map points: 4 for KFs (37, 9)
+# fused map points: 3 for KFs (37, 8)
+# fused map points: 4 for KFs (37, 7)
+# fused map points: 4 for KFs (37, 4)
+# fused map points: 5 for KFs (37, 5)
+# fused map points: 4 for KFs (37, 1)
+# fused map points: 15 for local map into KF 37
+ # fused map points: 343 
+local optimization error^2:   0.492672
+>>>> culling keyframes...
+ # culled keyframes: 0 
+local mapping duration:  1.3569121360778809
+..................................
+processing KF:  39 , queue size:  0
+>>>> culling map points...
+ # culled points:  159
+>>>> creating new map points
+local map keyframes:  [37, 35, 33, 31, 29, 27, 25, 23, 21, 19, 15, 17, 11, 13, 9, 10, 8, 7, 1, 4]  +  39 ...
+# added map points: 73 for KFs (39, 37)
+# added map points: 37 for KFs (39, 35)
+# added map points: 16 for KFs (39, 33)
+# added map points: 9 for KFs (39, 31)
+# added map points: 4 for KFs (39, 29)
+# added map points: 5 for KFs (39, 27)
+# added map points: 2 for KFs (39, 25)
+# added map points: 0 for KFs (39, 23)
+# added map points: 1 for KFs (39, 21)
+# added map points: 0 for KFs (39, 19)
+# added map points: 1 for KFs (39, 15)
+# added map points: 0 for KFs (39, 17)
+# added map points: 0 for KFs (39, 11)
+# added map points: 0 for KFs (39, 13)
+# added map points: 0 for KFs (39, 9)
+# added map points: 0 for KFs (39, 10)
+# added map points: 0 for KFs (39, 8)
+# added map points: 0 for KFs (39, 7)
+# added map points: 0 for KFs (39, 1)
+ # new map points: 148 
+>>>> fusing map points
+local map keyframes:  [37, 35, 33, 31, 29, 27, 25, 23, 21, 19, 15, 17, 11, 13, 9, 10, 8, 7, 1, 4]  +  39 ...
+# fused map points: 47 for KFs (39, 37)
+# fused map points: 61 for KFs (39, 35)
+# fused map points: 40 for KFs (39, 33)
+# fused map points: 27 for KFs (39, 31)
+# fused map points: 27 for KFs (39, 29)
+# fused map points: 20 for KFs (39, 27)
+# fused map points: 7 for KFs (39, 25)
+# fused map points: 9 for KFs (39, 23)
+# fused map points: 17 for KFs (39, 21)
+# fused map points: 7 for KFs (39, 19)
+# fused map points: 9 for KFs (39, 15)
+# fused map points: 4 for KFs (39, 17)
+# fused map points: 5 for KFs (39, 11)
+# fused map points: 6 for KFs (39, 13)
+# fused map points: 4 for KFs (39, 9)
+# fused map points: 2 for KFs (39, 10)
+# fused map points: 1 for KFs (39, 8)
+# fused map points: 3 for KFs (39, 7)
+# fused map points: 1 for KFs (39, 1)
+# fused map points: 1 for KFs (39, 4)
+# fused map points: 8 for local map into KF 39
+ # fused map points: 306 
+local optimization error^2:   0.499249
+>>>> culling keyframes...
+ # culled keyframes: 0 
+local mapping duration:  1.4079980850219727
+..................................
+processing KF:  41 , queue size:  0
+>>>> culling map points...
+ # culled points:  164
+>>>> creating new map points
+local map keyframes:  [39, 37, 35, 33, 31, 29, 27, 25, 23, 21, 19, 15, 17, 13, 11, 9, 10, 8, 7, 5]  +  41 ...
+# added map points: 74 for KFs (41, 39)
+# added map points: 40 for KFs (41, 37)
+# added map points: 16 for KFs (41, 35)
+# added map points: 8 for KFs (41, 33)
+# added map points: 7 for KFs (41, 31)
+# added map points: 0 for KFs (41, 29)
+# added map points: 2 for KFs (41, 27)
+# added map points: 2 for KFs (41, 25)
+# added map points: 0 for KFs (41, 23)
+# added map points: 0 for KFs (41, 21)
+# added map points: 1 for KFs (41, 19)
+# added map points: 0 for KFs (41, 15)
+# added map points: 0 for KFs (41, 17)
+# added map points: 0 for KFs (41, 13)
+# added map points: 0 for KFs (41, 11)
+# added map points: 0 for KFs (41, 9)
+# added map points: 0 for KFs (41, 7)
+# added map points: 0 for KFs (41, 5)
+ # new map points: 150 
+>>>> fusing map points
+local map keyframes:  [39, 37, 35, 33, 31, 29, 27, 25, 23, 21, 19, 15, 17, 13, 11, 9, 10, 8, 7, 5]  +  41 ...
+# fused map points: 53 for KFs (41, 39)
+# fused map points: 47 for KFs (41, 37)
+# fused map points: 48 for KFs (41, 35)
+# fused map points: 32 for KFs (41, 33)
+# fused map points: 15 for KFs (41, 31)
+# fused map points: 15 for KFs (41, 29)
+# fused map points: 15 for KFs (41, 27)
+# fused map points: 5 for KFs (41, 25)
+# fused map points: 5 for KFs (41, 23)
+# fused map points: 8 for KFs (41, 21)
+# fused map points: 6 for KFs (41, 19)
+# fused map points: 4 for KFs (41, 15)
+# fused map points: 4 for KFs (41, 17)
+# fused map points: 1 for KFs (41, 13)
+# fused map points: 1 for KFs (41, 11)
+# fused map points: 6 for KFs (41, 9)
+# fused map points: 2 for KFs (41, 10)
+# fused map points: 3 for KFs (41, 8)
+# fused map points: 3 for KFs (41, 7)
+# fused map points: 1 for KFs (41, 5)
+# fused map points: 18 for local map into KF 41
+ # fused map points: 292 
+local optimization error^2:   0.505167
+>>>> culling keyframes...
+ # culled keyframes: 0 
+local mapping duration:  1.3782157897949219
+..................................
+processing KF:  43 , queue size:  0
+>>>> culling map points...
+ # culled points:  157
+>>>> creating new map points
+local map keyframes:  [39, 41, 37, 35, 33, 31, 27, 29, 25, 23, 21, 19, 17, 15, 13, 10, 11, 9, 8, 7]  +  43 ...
+# added map points: 32 for KFs (43, 39)
+# added map points: 75 for KFs (43, 41)
+# added map points: 15 for KFs (43, 37)
+# added map points: 10 for KFs (43, 35)
+# added map points: 4 for KFs (43, 33)
+# added map points: 1 for KFs (43, 31)
+# added map points: 1 for KFs (43, 27)
+# added map points: 2 for KFs (43, 29)
+# added map points: 0 for KFs (43, 25)
+# added map points: 0 for KFs (43, 23)
+# added map points: 0 for KFs (43, 21)
+# added map points: 0 for KFs (43, 19)
+# added map points: 0 for KFs (43, 17)
+# added map points: 0 for KFs (43, 13)
+# added map points: 0 for KFs (43, 10)
+# added map points: 0 for KFs (43, 11)
+# added map points: 0 for KFs (43, 9)
+# added map points: 0 for KFs (43, 8)
+# added map points: 0 for KFs (43, 7)
+ # new map points: 140 
+>>>> fusing map points
+local map keyframes:  [39, 41, 37, 35, 33, 31, 27, 29, 25, 23, 21, 19, 17, 15, 13, 10, 11, 9, 8, 7]  +  43 ...
+# fused map points: 47 for KFs (43, 39)
+# fused map points: 40 for KFs (43, 41)
+# fused map points: 37 for KFs (43, 37)
+# fused map points: 30 for KFs (43, 35)
+# fused map points: 19 for KFs (43, 33)
+# fused map points: 18 for KFs (43, 31)
+# fused map points: 17 for KFs (43, 27)
+# fused map points: 5 for KFs (43, 29)
+# fused map points: 12 for KFs (43, 25)
+# fused map points: 8 for KFs (43, 23)
+# fused map points: 6 for KFs (43, 21)
+# fused map points: 6 for KFs (43, 19)
+# fused map points: 5 for KFs (43, 17)
+# fused map points: 10 for KFs (43, 15)
+# fused map points: 8 for KFs (43, 13)
+# fused map points: 2 for KFs (43, 10)
+# fused map points: 3 for KFs (43, 11)
+# fused map points: 2 for KFs (43, 9)
+# fused map points: 4 for KFs (43, 8)
+# fused map points: 3 for KFs (43, 7)
+# fused map points: 15 for local map into KF 43
+ # fused map points: 297 
+local optimization error^2:   0.507111
+>>>> culling keyframes...
+ # culled keyframes: 0 
+local mapping duration:  1.4164690971374512
+..................................
+processing KF:  45 , queue size:  0
+>>>> culling map points...
+ # culled points:  138
+>>>> creating new map points
+local map keyframes:  [43, 39, 41, 37, 35, 33, 31, 27, 29, 25, 23, 21, 19, 15, 17, 11, 13, 9, 10, 8]  +  45 ...
+# added map points: 72 for KFs (45, 43)
+# added map points: 7 for KFs (45, 39)
+# added map points: 27 for KFs (45, 41)
+# added map points: 8 for KFs (45, 37)
+# added map points: 5 for KFs (45, 35)
+# added map points: 2 for KFs (45, 33)
+# added map points: 1 for KFs (45, 31)
+# added map points: 4 for KFs (45, 27)
+# added map points: 3 for KFs (45, 29)
+# added map points: 1 for KFs (45, 25)
+# added map points: 0 for KFs (45, 23)
+# added map points: 0 for KFs (45, 21)
+# added map points: 0 for KFs (45, 19)
+# added map points: 0 for KFs (45, 15)
+# added map points: 0 for KFs (45, 17)
+# added map points: 0 for KFs (45, 11)
+# added map points: 0 for KFs (45, 10)
+# added map points: 0 for KFs (45, 8)
+ # new map points: 130 
+>>>> fusing map points
+local map keyframes:  [43, 39, 41, 37, 35, 33, 31, 27, 29, 25, 23, 21, 19, 15, 17, 11, 13, 9, 10, 8]  +  45 ...
+# fused map points: 36 for KFs (45, 43)
+# fused map points: 40 for KFs (45, 39)
+# fused map points: 41 for KFs (45, 41)
+# fused map points: 25 for KFs (45, 37)
+# fused map points: 16 for KFs (45, 35)
+# fused map points: 16 for KFs (45, 33)
+# fused map points: 16 for KFs (45, 31)
+# fused map points: 3 for KFs (45, 27)
+# fused map points: 11 for KFs (45, 29)
+# fused map points: 7 for KFs (45, 25)
+# fused map points: 5 for KFs (45, 23)
+# fused map points: 8 for KFs (45, 21)
+# fused map points: 6 for KFs (45, 19)
+# fused map points: 5 for KFs (45, 15)
+# fused map points: 7 for KFs (45, 17)
+# fused map points: 6 for KFs (45, 11)
+# fused map points: 4 for KFs (45, 13)
+# fused map points: 3 for KFs (45, 9)
+# fused map points: 1 for KFs (45, 10)
+# fused map points: 4 for KFs (45, 8)
+# fused map points: 15 for local map into KF 45
+ # fused map points: 275 
+local optimization error^2:   0.516094
+>>>> culling keyframes...
+ # culled keyframes: 0 
+local mapping duration:  1.3911378383636475
