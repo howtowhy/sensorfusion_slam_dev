@@ -17,36 +17,19 @@
 * along with PYSLAM. If not, see <http://www.gnu.org/licenses/>.
 """
 
-import numpy as np
+import time
+
 import cv2
-import math
-import time 
 
-import platform 
-
+from camera import PinholeCamera
 from config import Config
-
-from slam import Slam, SlamState
-from camera  import PinholeCamera
 from dataset import dataset_factory
-
-#from mplot3d import Mplot3d
-#from mplot2d import Mplot2d
-from mplot_thread import Mplot2d, Mplot3d
-
-from viewer3D import Viewer3D
-from utils import getchar, Printer 
-
-from feature_tracker import feature_tracker_factory, FeatureTrackerTypes 
-from feature_manager import feature_manager_factory
-from feature_types import FeatureDetectorTypes, FeatureDescriptorTypes, FeatureInfo
-from feature_matcher import feature_matcher_factory, FeatureMatcherTypes
-
+from feature_tracker import feature_tracker_factory, FeatureTrackerTypes
 from feature_tracker_configs import FeatureTrackerConfigs
-
-from parameters import Parameters  
-import multiprocessing as mp 
-
+from mplot_thread import Mplot2d
+from slam import Slam, SlamState
+from utils import getchar, Printer
+from viewer3D import Viewer3D
 
 if __name__ == "__main__":
     
@@ -64,7 +47,7 @@ if __name__ == "__main__":
     tracker_type = FeatureTrackerTypes.DES_BF      # descriptor-based, brute force matching with knn 
     #tracker_type = FeatureTrackerTypes.DES_FLANN  # descriptor-based, FLANN-based matching 
 
-    # select your tracker configuration (see the file feature_tracker_configs.py) 
+    # select your tracker configuration (see the file feature_tracker_configs.py)
     tracker_config = FeatureTrackerConfigs.TEST
     tracker_config['num_features'] = num_features
     tracker_config['tracker_type'] = tracker_type
