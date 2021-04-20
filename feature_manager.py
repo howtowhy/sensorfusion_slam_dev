@@ -138,18 +138,12 @@ class FeatureManager(object):
         print("using opencv ", cv2.__version__)
         # check opencv version in order to use the right modules 
         if cv2.__version__.split('.')[0] == '3':
-            SIFT_create = import_from('cv2.xfeatures2d','SIFT_create')
-            SURF_create = import_from('cv2.xfeatures2d','SURF_create')
             ORB_create = import_from('cv2','ORB_create')
         else:
-            SIFT_create = import_from('cv2.xfeatures2d','SIFT_create')
-            SURF_create = import_from('cv2.xfeatures2d','SURF_create')
             ORB_create = import_from('cv2','ORB')
 
         # pure detectors
         # detectors and descriptors 
-        self.SIFT_create = SIFT_create
-        self.SURF_create = SURF_create
         self.ORB_create = ORB_create
 
         # --------------------------------------------- #
@@ -174,8 +168,6 @@ class FeatureManager(object):
             orb2_num_levels = self.num_levels                              
             self._feature_detector = Orbslam2Feature2D(self.num_features, self.scale_factor, orb2_num_levels) 
             self.keypoint_filter_type = KeyPointFilterTypes.NONE  # ORB2 cpp implementation already includes the algorithm OCTREE_NMS
-            #    
-            #
         else:
             raise ValueError("Unknown feature detector %s" % self.detector_type)
                 
@@ -260,17 +252,6 @@ class FeatureManager(object):
                                        do_parallel = self.pyramid_do_parallel,
                                        do_sat_features_per_level = self.do_sat_features_per_level)       
             self.pyramid_adaptor = PyramidAdaptor(**self.pyramid_params)
-         
-    
-    def set_sift_parameters(self):
-        # N.B.: The number of SIFT octaves is automatically computed from the image resolution, 
-        #       here we can set the number of layers in each octave.
-        #       from https://docs.opencv.org/3.4/d5/d3c/classcv_1_1xfeatures2d_1_1SIFT.html
-        #self.intra_layer_factor = 1.2599   # num layers = nOctaves*nOctaveLayers  scale=2^(1/nOctaveLayers) = 1.2599  
-        self.scale_factor = 2              # force scale factor = 2 between octaves  
-        self.sigma_level0 = 1.6            # https://github.com/opencv/opencv/blob/173442bb2ecd527f1884d96d7327bff293f0c65a/modules/nonfree/src/sift.cpp#L118
-                                           # from https://docs.opencv.org/3.1.0/da/df5/tutorial_py_sift_intro.html     
-        self.first_level = -1              # https://github.com/opencv/opencv/blob/173442bb2ecd527f1884d96d7327bff293f0c65a/modules/nonfree/src/sift.cpp#L731
 
 
     # initialize scale factors, sigmas for each octave level; 
